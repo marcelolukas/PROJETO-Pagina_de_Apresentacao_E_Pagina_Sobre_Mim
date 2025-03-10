@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor_primaria: #000000;
+    --cor_secundaria:#F6F6F6;
+    --cor_terciaria:#22D4FD;
+    --cor_hoover:#272727;
+    
+    --fonte_primaria: 'Krona One', sans-serif;
+    --fonte_secundaria: 'Montserrat', sans-serif
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor_primaria);
+    color: var(--cor_secundaria);
+    
+    
+}
+
+.apresentacao{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    transform: scale(0.7);
+}
+
+.cabecalho__menu__link {
+    color: var(--cor_terciaria);
+    font-family: var(--fonte_secundaria);
+    font-size: 19px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: var(--fonte_primaria);
+    
+}
+
+.titulo-destaque{
+    color: var(--cor_terciaria);
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: var(--fonte_primaria);
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao__links__subtitulo{
+    font-family: var(--fonte_secundaria);
+    font-weight: 400;
+    font-size: 24px;
+}
+.apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor_terciaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor_secundaria);
+    font-family: var(--fonte_primaria);
+}
+.apresentacao__links__link:hover{
+    background-color: var(--cor_hoover);
+    transform: scale(1.05);
+    box-shadow: 0 0 40px var(--cor_terciaria)  (0, 255, 255, 0.5);
+}
+
+.rodape {
+    padding: 2px;
+    background-color: var(--cor_terciaria);
+    color:var(--cor_primaria);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--fonte_primaria);
+    
+}
+
